@@ -41,11 +41,26 @@ Primitives are passed by value, a copy of the primitive itself is passed. Wherea
 Exceptions in Java.
 What Is an Exception?
 Exception is like a error massage that appeer when you have somthing goes wrong and if that happend we need to habdle in we can do that by using try and catch.
+
+* The try statement allows you to define a block of code to be tested for errors while it is being executed.
+
+* The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+ex : 
+try {
+  //  Block of code to try
+}
+catch(Exception e) {
+  //  Block of code to handle errors
+}
+
 What is happen when an error occurs within a method?
 If that happen the method will creates a mssage have the error and the type of it and send it to the user.
 The Catch or Specify Requirement
 In this part it’s telling what happen when the code throw a certain exceptions. the first thing we can do by a try statement that catches the exception. The try must provide a handler for the exception,or a method that specifies that it can throw the exception. The method must provide a throws clause that lists the exception.
 Catching and Handling Exceptions.
-In this section I learned how how to use the exception handler components.
-Scanning
-We can do many thing using scanner like reading a files and we can checking or search for spisfic things.
+
+# Scanner 
+
+* The Scanner class is used to get user input, and it is found in the java.util package.
+
