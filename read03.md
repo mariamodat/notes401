@@ -1,11 +1,15 @@
 # Java Type System
-ava has a two-fold type system consisting of primitives such as int, boolean and reference types such as Integer, Boolean. Every primitive type corresponds to a reference type.
-
-
  Integer is a class, that wraps the int primitive, and making a new Integer() means we're really making an object of type Integer.
 
- Integer j = 1;          // autoboxing
-int i = new Integer(1); // unboxing
+* Integer j = 1;          // autoboxing
+* int i = new Integer(1); // unboxing
+
+Autoboxing:  is the process of converting a primitive type to a reference.
+
+Unboxing: is the process of converting a reference one to primitive type.
+
+Primitives: int, boolean
+reference types: Integer, Boolean.
 
 
 ## Pros and Cons
@@ -28,7 +32,6 @@ Memory footprint refers to the amount of main memory that a program uses or refe
 * Integer, Float – 128 bits
 * Long, Double – 192 bits
 
-We can notice that a single variable of Boolean type occupies as much space as 128 primitive ones, while one Integer variable occupies as much space as four int ones.
 
 Primitives are passed by value, a copy of the primitive itself is passed. Whereas for objects, the copy of the reference is passed, not the object itself. Primitives are independent data types, there does not exist a hierarchy/super class for them. Whereas every Object is descendent of class "Object". 
 
