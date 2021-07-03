@@ -1,3 +1,10 @@
+## what is Object 
+An object is an abstract data type that has properites and methods and could be inherted. 
+
+## what is Class 
+Class is like a blueprint that the objects are created from . 
+
+
 # Interfaces and inhertance
 
 ## what is Interface ?
