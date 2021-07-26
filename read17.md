@@ -4,3 +4,8 @@ this annotation is helpful to create a relation between two entities, so they wi
 to make that so , at first we create two classes and we put the annotations to create the relation .. 
 this explains what happens in the data base once we add the relation :
 ![img](https://hellokoding.com/content/images/2019/02/Screenshot-2019-02-01-at-10-26-21-AM.png) 
+
+we  aslo should notice these annotations : 
+
+* **@JoinTable : is used to define the join/link table.**
+* **@JoinColumn annotation used to specify the join/linking column with the main table.**
