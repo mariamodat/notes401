@@ -13,3 +13,4 @@ There are four different types of app components:
 * Content providers
 this graph can explain it breifly 
 ![img](https://www.researchgate.net/profile/Mamdouh-Alenezi-2/publication/333798148/figure/fig1/AS:769951270961152@1560582096104/The-Android-application-components.ppm)
+
