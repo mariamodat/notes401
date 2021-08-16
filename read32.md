@@ -11,4 +11,24 @@ it's a set of tools and services that is used to help the front-end web as well 
 
  ## GraphQl 
  helps developers to create backends on their web or mobile apps using AWS.
- 
+ ## @model top level entity used to create 
+ DynamoDB , resolves & additional schema 
+ so it's used to:
+ * manage the CRUD operations as well as the list operations.  
+ * subscriptions 
+ * Resolvers for all operations. 
+
+ Type Todo @model { shcema }
+
+## @connection
+enables the relationships between @model types. 
+Type post @model { 
+    id:Id!
+title:String!
+comments:[comment ]}
+
+Type comment @model {
+     id:Id !
+content:String!
+createdAt:String!
+post:post @connnection(name:" com")}
