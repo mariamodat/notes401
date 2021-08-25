@@ -12,5 +12,6 @@
 
  ![img](https://eadn-wc03-4064062.nxedge.io/cdn/wp-content/uploads/2021/03/2021-03-06-15_43_10-WHY-AMAZON-SNS_-Techspawn-Solutions.png)
 
- so we can basically say that it provides us an   * Instantaneous, push-based delivery (no polling).
+ so we can basically say that it provides us an  
+  * Instantaneous, push-based delivery (no polling).
 * Simple APIs and easy integration with applications.
